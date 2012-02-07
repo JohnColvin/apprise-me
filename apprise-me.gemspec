@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = AppriseMe::VERSION
   s.authors     = ["John Colvin"]
   s.email       = ["colvin.john@gmail.com"]
-  s.homepage    = "https://github.com/johncolvin/apprise-rails"
+  s.homepage    = "https://github.com/johncolvin/apprise-me"
   s.summary     = %q{Replaces confirms with apprise style confirms}
   s.description = %q{Automatically uses apprise for confirms sent as a parameter to link_to}
 
