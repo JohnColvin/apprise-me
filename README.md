@@ -2,6 +2,8 @@
 
 This gem utilizes apprise confirms for any link_to with confirm as a parameter. It uses the apprise project found at https://github.com/ThrivingKings/Apprise for the Rails asset pipeline (available since Rails 3.1).
 
+Warning: This will not work links that have `:remote => true` set.
+
 ### Usage
 
 To make use of this project add the following lines to 'app/assets/javascripts/application.js':
