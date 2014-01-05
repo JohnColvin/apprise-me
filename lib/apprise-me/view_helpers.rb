@@ -10,15 +10,6 @@ module AppriseMe
       end
       super *args, &block
     end
-
-   # def convert_options_to_data_attributes(options, html_options)
-   #   if html_options
-   #     html_options2 = html_options.stringify_keys
-   #     html_options2['data-apprise-confirm'] = html_options2.delete('confirm')
-   #   end
-   #   super options, html_options2
-
-   # end
   end
 end
 
